@@ -12,20 +12,11 @@ ______________________________________________________________
 ✨ Features
 ______________________________________________________________
 
-Horizontal swipe right → left to open Message Info
+- swipe right → left to open Message Info
 
-Swipe left → right to return to Chat
-
-Smooth UIKit pan gesture (no SwiftUI drag lag)
-
-Parallax effect on message bubble
-
-Dim overlay during swipe
+- Swipe left → right to return to Chat
 
 Header stays fixed while content slides
-
-No visual gaps or white bars during swipe
-
 ______________________________________________________________
 🧩 Architecture Overview
 ______________________________________________________________
