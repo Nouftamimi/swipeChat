@@ -29,25 +29,27 @@ No visual gaps or white bars during swipe
 ______________________________________________________________
 🧩 Architecture Overview
 ______________________________________________________________
+## 📂 Project Structure
 
+```text
 ChatMsg
 │
 ├─ Component
-│   ├─ ChatHeaderComponent.swift     # Fixed header shown above swipe content
-│   └─ MessageBubbleComponent.swift  # Reusable chat bubble UI
+│   ├─ ChatHeaderComponent.swift        # Fixed header shown above swipe content
+│   └─ MessageBubbleComponent.swift     # Reusable chat bubble UI
 │
 ├─ Controller
-│   └─ SwipeViewController.swift     # UIKit pan gesture controller
+│   └─ SwipeViewController.swift        # UIKit pan gesture controller
 │
 ├─ Model
-│   ├─ ChatMessage.swift             # Chat message data model
-│   └─ SwipeDirection.swift          # Swipe direction enum
+│   ├─ ChatMessage.swift                # Chat message data model
+│   └─ SwipeDirection.swift             # Swipe direction enum
 │
 ├─ View
-│   ├─ ChatSwipeView.swift           # Main swipe container & coordinator
-│   ├─ ChatView.swift                # Chat screen content
-│   └─ MessageInfoView.swift         # Message details screen
-
+│   ├─ ChatSwipeView.swift              # Main swipe container & coordinator
+│   ├─ ChatView.swift                   # Chat screen content
+│   └─ MessageInfoView.swift            # Message details screen
+```
 ______________________________________________________________
 🧱 UIKit Integration (Why It’s Used)
 ______________________________________________________________
